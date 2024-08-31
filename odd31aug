@@ -1,0 +1,27 @@
+class contacts:
+    ph={};
+    def addconatcts(addnumber,addname,addemail){
+        ph[number]=addnumber;
+        ph[name]=addname;
+        ph[email]=addemail;
+        
+
+c.contacts
+ print ("enter the details");
+ number =int(input("enter the number"));
+
+contacts ={"yasho":("yasho","yasho@yahoo.com"),22222:("yash","yash@gmail.com"),23222:("harry","haro@yahoo.com"),13333:("sam","sam@gmail.com")}
+## print (contacts)
+val=string (input("enter the name to get details"))
+value =contacts[val];
+print (value)
+
+contacts ={"yasho":("yasho","yasho@yahoo.com"),22222:("yash","yash@gmail.com"),23222:("harry","haro@yahoo.com"),13333:("sam","sam@gmail.com")}
+## print (contacts)
+val=string (input("enter the name to get details"))
+value =contacts[val];
+print (value)
+
+
+
+
